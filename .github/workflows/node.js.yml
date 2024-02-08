@@ -35,6 +35,7 @@ jobs:
 
    - uses: docker/login-action@v1
    - with:
+   -image: amirjafari9 / nodeproject
    - username: ${{ secrets.DOCKER_HUB_USERNAME }}
    - password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
